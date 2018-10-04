@@ -1,0 +1,16 @@
+body {
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:before {
+        content: 'Testowo kolorowo';
+        color: #fff;
+        font-size:100px;
+        font-family:sans-serif;
+    }
+}
