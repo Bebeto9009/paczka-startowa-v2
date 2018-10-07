@@ -60,14 +60,14 @@ gulp.task("sass", function() {
 });
 
 
-gulp.task("es6", function(cb) { //https://github.com/webpack/docs/wiki/usage-with-gulp#normal-compilation
-    return webpack(require("./webpack.config.js"), function(err, stats) {
-        if (err) throw err;
-        console.log(stats.toString());
-        // cb();
-        browserSync.reload();
-    })
-})
+// gulp.task("es6", function(cb) { //https://github.com/webpack/docs/wiki/usage-with-gulp#normal-compilation
+//     return webpack(require("./webpack.config.js"), function(err, stats) {
+//         if (err) throw err;
+//         console.log(stats.toString());
+//         // cb();
+//         browserSync.reload();
+//     })
+// })
 
 
 gulp.task("watch", function() {
