@@ -77,4 +77,4 @@ gulp.task("watch", function() {
 });
 
 
-gulp.task("default", ["sass", "es6", "browseSync", "watch"]);
+gulp.task("default", ["sass", "browseSync", "watch"]);
